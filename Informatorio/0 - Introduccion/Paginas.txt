@@ -1,0 +1,16 @@
+matplotlib.org
+opencv.org
+pygames.org
+
+Python Oficial:
+	www.pyhton.org
+
+Documentacion Oficial Python
+	www.python.org/doc/
+	docs.python.org/3/
+
+Comunidad Python Argentina
+	www.python.org.ar
+
+Tutorial Python Argentina
+	tutorial.python.org.ar/en/latest/

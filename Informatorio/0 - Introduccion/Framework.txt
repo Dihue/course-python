@@ -1,0 +1,16 @@
+Framework
+
+Es una estructura previa que se puede aprovechar para desarrollar
+un proyecto, es una especie de plantilla, un esquema conceptual,
+que simplifica la elaboracion de una tarea, ya que solo es nece-
+sario complementarlo de acuerdo a lo que se quiere realizar.
+
+En el desarrollo de software, un ENTORNO de TRABAJO es una estru-
+tura conceptual y tecnologica de asistencia definida, normalmente
+con artefactos o modulos concretos de software, que pueden servir
+de base para la organizacion y desarrollo de software. Tipicamen-
+te puede incluir soporte de programas, bibliotecas, y un lenguaje
+interpretado, entro otras herramientas, para asi ayudar a desarro-
+llar y unir los diferentes componentes de un proyecto.
+
+Ejemplos: Django, Spring boot

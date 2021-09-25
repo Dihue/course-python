@@ -1,0 +1,18 @@
+IDE (Integrated Development Environment)
+
+Entorno de Desarrollo Integrado
+
+Es una aplicacion informatica que proporciona servicios integrales
+para facilitarle al desarrollador o programador el desarrollo de
+software.
+
+Normalmente, un IDE consiste en un editor de codigo fuente, herra-
+mientas de construccion automaticas y un depurador; la mayoria tie-
+nen auto-completado inteligente de codigo (IntelliSense), algunos
+contienen un compilador, un interprete o ambos.
+
+Muchos IDE modernos tambien cuentan con un navegador de clases, un
+buscador de objetos y un diagrama de jerarquia de clases para su
+uso con el desarrollo de software orientado a objetos.
+
+Ejemplos: Eclipse, NetBeans, IntelliJ

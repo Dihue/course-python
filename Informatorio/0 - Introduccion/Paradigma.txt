@@ -1,0 +1,50 @@
+¿Que es un paradigma?
+
+Son los diferentes estilos de usar la programacion para resolver
+un problema.
+
+> Programacion Orientada a Objetos
+
+Divide los componente de un programa en objetos que tiene datos
+y comportamientos y se comunican entre si.
+
+>Programacion Funcional
+
+Divide el programa en tareas pequeñas que son ejecutadas por fun-
+ciones.
+
+
+Se denominan paradigmas de programación a las formas de clasificar
+los lenguajes de programación en función de sus características.
+Los idiomas se pueden clasificar en múltiples paradigmas.
+
+Algunos paradigmas se ocupan principalmente de las implicancias pa-
+ra el modelo de ejecución del lenguaje, como permitir efectos se-
+cundarios o si la secuencia de operaciones está definida por el mo-
+delo de ejecución. Otros paradigmas se refieren principalmente a la
+forma en que se organiza el código, como agrupar un código en unida-
+des junto con el estado que modifica el código. Sin embargo, otros
+se preocupan principalmente por el estilo de la sintaxis y la gramá-
+tica.
+
+Los paradigmas de programación comunes:
+
+> Imperativo: en el que el programador instruye a la máquina cómo cambiar su estado.
+	
+	> Procedimental: que agrupa las instrucciones en procedimientos.
+	
+	> Orientado a objetos: que agrupa las instrucciones con la parte del estado en el que peran.
+
+> Declarativo: en el que el programador simplemente declara las propiedades del resultado 
+deseado, pero no cómo calcularlo
+
+	> Funcional: en el que el resultado deseado se declara como el valor de una serie de aplicaciones de función.
+	
+	> Lógico: en la que el resultado deseado se declara como la respuesta a una pregunta sobre 
+	un sistema de hechos y reglas.
+	
+	> Matemático: en el que el resultado deseado se declara como la solución de un problema de 
+	optimización.
+	
+	> Reactivo: en el que se declara el resultado deseado con flujos de datos y la propagación 
+	del cambio
