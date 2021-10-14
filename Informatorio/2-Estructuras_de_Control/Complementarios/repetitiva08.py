@@ -19,4 +19,4 @@ while producto == '1':
 
 	producto = input("\n¿Desea ingresar otro producto?\n1-SI\n2-NO\n\nOpción: ")
 
-print("\nTotal de la compra es $ ",total)
+print("\nTotal de la compra es $",round(total,2))
