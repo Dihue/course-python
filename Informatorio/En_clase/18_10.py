@@ -1,6 +1,7 @@
 # Funciones:
 
-def suma(x,y):
+# valores por defecto
+def suma(x=10,y=20):
 	r = x + y
 	return r
 
