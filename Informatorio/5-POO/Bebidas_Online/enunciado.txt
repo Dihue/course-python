@@ -1,0 +1,28 @@
+En un deposito se guardar las bebidas a comercializar.
+Estos productos son bebidas como agua mineral y gaseosa.
+
+De los productos, nos interesa saber su identificador(cada uno tiene uno distinto),
+cantidad de litros, precio y marca.
+
+Si es agua mineral nos interesa saber tambien
+el origen(Manantial, cuidad, etc).
+
+Si es una gaseosa queremos saber el porcentaje que tiene de azucar
+y si tiene o no alguna promocion(si la tiene,
+tendra un descuento del 10% en el precio).
+
+Las operaciones del almacen son las siguuiente:
+
+> Calcular el precio de todas las bebidas
+(calcula el precio total de todos los productos del almacen)
+
+> Calcular el precio total de una marca de bebida
+(dada una marca, calcular el precio total de esas bebidas)
+
+> Agregar productos (si el identificador esta repetido en alguna bebida, no se agregara esa bebida)
+
+> Eliminar un producto
+(dado un ID, eliminar el producto del deposito)
+
+> Mostrar informacion
+( para cadad bebida, mostrar toda la informacion)
