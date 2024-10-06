@@ -18,7 +18,7 @@ for doc in LISTA_DOCUMENTOS:
 
     # Si documento no es numérico
     if not doc.isnumeric():
-        # lista_documentos_invalidos.append(doc)
+        # Se crea un diccionario y se agregan datos de forma automática
         lista_documentos_invalidos.append({
             "value": doc,
             "error": "tiene caracteres especiales"
