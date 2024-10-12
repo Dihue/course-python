@@ -17,15 +17,17 @@ class Triangulo:
     # Métodos
     def tipo_triangulo(self):
         print("Lados:", self.lado1, self.lado2, self.lado3)
+        # Usar la propiedad del SET de elementos no repetidos
         return self.TIPOS[len({self.lado1, self.lado2, self.lado3})]
 
+# Evito que no se ejecute desde otro archivo
+if __name__ == "__name__":
+    # Instancias
+    t1 = Triangulo(2,3,1)
+    print("Tipo:", t1.tipo_triangulo())
 
-# Instancias
-t1 = Triangulo(2,3,1)
-print("Tipo:", t1.tipo_triangulo())
+    t2 = Triangulo(1,3,1)
+    print("Tipo:", t2.tipo_triangulo())
 
-t2 = Triangulo(1,3,1)
-print("Tipo:", t2.tipo_triangulo())
-
-t3 = Triangulo(3,3,3)
-print("Tipo:", t3.tipo_triangulo())
+    t3 = Triangulo(3,3,3)
+    print("Tipo:", t3.tipo_triangulo())
