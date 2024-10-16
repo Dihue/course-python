@@ -1,0 +1,88 @@
+Informe de análisis y procesamiento de datos de vacunación COVID-19
+
+Introducción
+Este documento describe el desarrollo de un sistema de análisis de datos de vacunación
+COVID-19 basado en Python. El objetivo del sistema es procesar archivos CSV proporcionados
+por el Ministerio de Salud y generar informes detallados sobre las vacunas aplicadas,
+desglosadas por género, tipo de vacuna, jurisdicción y otros aspectos demográficos
+importantes.
+
+Módulos y Funciones Desarrolladas
+El código se organiza en dos módulos principales:
+
+manejo_de_archivo.py: Contiene funciones relacionadas con la lectura y escritura de
+archivos CSV.
+funciones.py: Contiene las funciones de procesamiento y análisis de datos, que incluyen el
+conteo de vacunas aplicadas, la identificación de inconsistencias y el análisis por
+jurisdicción y tipo de vacuna.
+Ambos módulos son utilizados en un archivo principal llamado main.py, que ejecuta todas
+las funciones y muestra los resultados obtenidos.
+
+1. Lectura de datos
+La función de lectura de datos se encarga de leer un archivo CSV y convertirlo en una
+lista de diccionarios. Cada fila del archivo CSV se convierte en un diccionario con las
+claves correspondientes a los encabezados del archivo.
+
+Entradas: Nombre del archivo CSV.
+Salidas: Lista de diccionarios con los datos leídos del archivo.
+
+2. Validación de datos
+La función de validación verifica cada registro de la lista de datos leída. Identifica y
+gestiona inconsistencias en los datos, como campos vacíos o valores no válidos (por ejemplo,
+"S.I."). Los registros inválidos se almacenan en un archivo separado de inconsistencias,
+mientras que los registros válidos son procesados normalmente.
+
+Entradas: Lista de diccionarios con los datos a validar.
+Salidas: Lista de datos válidos y un archivo de inconsistencias.
+
+3. Conteo de personas vacunadas por género
+Esta función cuenta cuántas personas han sido vacunadas, clasificándolas por género. El
+género se identifica según el campo "sexo" en los datos.
+
+Entradas: Lista de datos válidos.
+Salidas: Contador de personas vacunadas por género (masculino y femenino).
+
+4. Conteo de tipos de vacunas aplicadas
+La función cuenta cuántas dosis de cada tipo de vacuna fueron aplicadas. Los datos se agrupan
+según el campo "vacuna".
+
+Entradas: Lista de datos válidos.
+Salidas: Un diccionario con los tipos de vacunas como claves y la cantidad aplicada de cada
+una como valores.
+
+5. Conteo de dosis aplicadas por jurisdicción de residencia
+Esta función cuenta cuántas dosis fueron aplicadas en cada jurisdicción de residencia. Los
+datos se agrupan según el campo "jurisdiccion_residencia".
+
+Entradas: Lista de datos válidos.
+Salidas: Un diccionario con las jurisdicciones como claves y el número de dosis aplicadas en
+cada una como valores.
+
+6. Conteo de personas que recibieron la segunda dosis por jurisdicción
+Esta función cuenta cuántas personas recibieron la segunda dosis de la vacuna, clasificándolas
+por jurisdicción de residencia.
+
+Entradas: Lista de datos válidos.
+Salidas: Un diccionario con las jurisdicciones como claves y la cantidad de personas que
+recibieron la segunda dosis.
+
+7. Conteo de personas mayores de 60 años que recibieron la dosis de refuerzo
+La función cuenta cuántas personas mayores de 60 años recibieron la dosis de refuerzo. Filtra
+los registros según el grupo etario "60 o más años" y la dosis genérica "Refuerzo".
+
+Entradas: Lista de datos válidos.
+Salidas: Número total de personas mayores de 60 años que recibieron la dosis de refuerzo.
+
+8. Ejecución del análisis (main.py)
+El archivo principal main.py ejecuta todas las funciones anteriores de manera secuencial para
+generar un análisis completo de los datos de vacunación.
+
+Pasos:
+
+Leer los datos: Se utiliza la función de lectura para cargar los datos desde el archivo CSV.
+Validar los datos: Los registros válidos son separados de las inconsistencias.
+Análisis por género: Se cuenta cuántas personas fueron vacunadas según su género.
+Análisis por tipo de vacuna: Se calcula la cantidad y proporción de cada tipo de vacuna aplicada.
+Distribución geográfica: Se contabilizan las dosis aplicadas por jurisdicción de residencia y
+cuántas personas recibieron la segunda dosis en cada jurisdicción.
+Análisis etario: Se cuenta cuántas personas mayores de 60 años recibieron la dosis de refuerzo.
